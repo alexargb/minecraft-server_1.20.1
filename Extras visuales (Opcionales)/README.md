@@ -9,7 +9,7 @@
 - Copiá los mods de `mods extra/` dentro de tu carpeta `.minecraft/mods/` junto con los principales.
 - Estos agregan efectos visuales como reflejos, niebla, nieve animada, etc.
 
-### Resource Packs
+### Packs de recursos y animaciones
 
 - Copiá los archivos de `resourcepacks/` en `.minecraft/resourcepacks/`.
 - Incluye animaciones y texturas mejoradas.
