@@ -6,7 +6,7 @@ Con seguir las instrucciones de este README (y las de los README de las carpetas
 
 ---
 
-## Pasos para la Instalación (Obligatorio)
+## Pasos para la Instalación (‼️)
 
 ### 1. Requisitos Previos
 
