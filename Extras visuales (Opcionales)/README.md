@@ -1,12 +1,10 @@
 ### Shaders
 
-- Asegurate de tener la carpeta `.minecraft/shaderpacks/` (si no existe, creala).
-- Copiá el contenido de `shaders/` en `shaderpacks/`.
-- Incluye el shader **Complementary Reimagined** y los mods necesarios para que funcione.
+- Cuando entres a la carpeta vas a ver las instrucciones necesarias.
 
 ### Mods Extra
 
-- Copiá los mods de `mods extra/` dentro de tu carpeta `.minecraft/mods/` junto con los principales.
+- Copiá los mods de `Mods extra/` dentro de tu carpeta `.minecraft/mods/` junto con los principales.
 - Estos agregan efectos visuales como reflejos, niebla, nieve animada, etc.
 
 ### Packs de recursos y animaciones
