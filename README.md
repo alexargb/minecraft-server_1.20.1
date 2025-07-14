@@ -39,7 +39,7 @@ Este repositorio contiene todo lo necesario para conectarse correctamente al ser
   - **Nombre:** Montoto (pongan el nombre que quieran)
   - Dirección/IP: (revisar el discord)
 
-> 🚨 Si el servidor está apagado, no vas a poder conectarte. Pero ya te queda guardado para el futuro.
+> 🚨 Si el servidor está apagado, no vas a poder conectarte. Pero ya te queda guardado para otra vez.
 
 ---
 
@@ -65,38 +65,17 @@ Hay un conflicto entre las teclas del chat de voz y otros mods:
 
 Para usuarios con PCs potentes, podés instalar mejoras visuales. Todo lo necesario está en la carpeta `Extras Visuales (Opcionales)`.
 
-### 1. Shaders
-
-- Asegurate de tener la carpeta `.minecraft/shaderpacks/` (si no existe, creala).
-- Copiá el contenido de `shaders/` en `shaderpacks/`.
-- Incluye el shader **Complementary Reimagined** y los mods necesarios para que funcione.
-
-### 2. Mods Extra
-
-- Copiá los mods de `mods extra/` dentro de tu carpeta `.minecraft/mods/` junto con los principales.
-- Estos agregan efectos visuales como reflejos, niebla, nieve animada, etc.
-
-### 3. Resource Packs
-
-- Copiá los archivos de `resourcepacks/` en `.minecraft/resourcepacks/`.
-- Incluye animaciones y texturas mejoradas.
-- Al iniciar el juego, activalos desde "Opciones → Paquetes de Recursos" (aunque diga "incompatible", no afecta).
-
-### 4. Configuración del Shader
-
-- Una vez dentro del juego, andá a "Opciones → Video → Shaders" y seleccioná el shader `Complementary Reimagined`.
-- En su configuración, cambiá el "Preset" a **"Basic"** para evitar bugs con la lava.
-
 ---
 
 ## Soporte
 
 Cualquier problema, duda o error:
 
+- Preguntale a Alex (experto tech y host del server).
 - Preguntale a Martu (experta visual).
 - Contactá por el grupo o por mensaje privado.
 
 ---
 
-> ✨ Con esto deberías tener una experiencia completa y lista para jugar. ¡Nos vemos en el server!
+> ✨ Con esto deberías tar readyy.
 
