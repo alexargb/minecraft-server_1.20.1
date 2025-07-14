@@ -106,8 +106,8 @@ Para usuarios con PCs potentes, se pueden instalar mejoras visuales. Todo lo nec
 
 Cualquier problema, duda o error:
 
-- Preguntale a Alex (experto tech y host del server).
-- Preguntale a Martu (experta visual).
+- Preguntale a Alex (experto en la tech y host del server).
+- Preguntale a Martu (experta en shaders y mods instalados).
 - Contactá por el grupo o por mensaje privado.
 
 ---
