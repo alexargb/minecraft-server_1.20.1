@@ -75,7 +75,7 @@ Puede que haya otras configuraciones a ajustar, pero estas son las que conviene 
 
 - Entrar a "Multijugador" y agregar un nuevo servidor con los siguientes datos:
   - **Nombre:** _Montoto_ (poner un nombre a gusto)
-  - Dirección/IP: (revisar el discord)
+  - Dirección/IP: (revisar el discord, aca voy a dejar un link al mensaje con la IP, que no la puedo hacer publica)
   - Aceptar.
 - Darle doble click a _Montoto_ (el nuevo servidor).
 
