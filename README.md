@@ -1,6 +1,7 @@
 # Repositorio de Conexión al Servidor de Minecraft 1.20.1
 
 Este repositorio contiene todo lo necesario para conectarse correctamente al servidor de Minecraft **1.20.1 con Forge**, incluyendo los mods obligatorios y contenido visual opcional para quienes tengan una PC potente.
+
 Con seguir las instrucciones de este README (y las de los README de las carpetas interiores de ser utilizadas) se va a poder entrar al servidor con Minecraft configurado.
 
 ---
