@@ -16,7 +16,7 @@ Pido disculpas de que sea todo tan manual, me encantaría poder hacer un script 
   - [Descargar Java 17](https://www.java.com/en/download/manual.jsp) (64 bits).
 - Tener **WinRAR** instalado para descomprimir archivos.
   - [Descargar WinRAR](https://www.win-rar.com/start.html?&L=6) (no lo paguen, no es necesario)
-- Descargarse este mismo _repositorio_ ([wiki](https://es.wikipedia.org/wiki/Repositorio_(contenido_digital))):
+- Descargarse este mismo _repositorio_ (esta misma página contiene lo que sería "el repositorio", explicación en la [wiki](https://es.wikipedia.org/wiki/Repositorio_(contenido_digital)) por si alguien quiere entender mejor):
   - Le dan click al botón verde que dice "Code".
   - Le dan click a "Download ZIP"/"Descargar ZIP".
   - Al archivo descargado lo "Extraen".
