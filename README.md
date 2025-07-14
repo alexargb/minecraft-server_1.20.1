@@ -35,7 +35,18 @@ Este va a reemplazar la versión de Minecraft que vamos a usar desde el launcher
 - **Backup**: si ya tienen una carpeta llamada `mods`, guardarla en otro lugar para no perderlos, que cuando se quiera volver a usarlos se van a tener que volver a poner ahí.
 - Copiar el contenido de la carpeta `Mods 1.20.1/` y pegarlo en `.minecraft/mods/`.
 
-### 4. Iniciar Minecraft
+### 4. Reconfigurar Teclas
+
+Al tener tantos mods hay muchas teclas que se chocan, y configurarlas una por una es un garrón, por lo que armé un archivo de configuración para que no pase y se pueda tener todo ya pre-configurado.
+
+Para hacer esto:
+- Primero hay que cerrar el juego si por alguna razón estaba abierto.
+- Hacer un backup (por las dudas) de su archivo `.minecraft/options.txt`, ya sea guardarlo en otro lado o renombrarlo a `options_old.txt`.
+- Copiar el archivo `options.txt` (de esta carpeta) y pegarlo en su `.minecraft/`, reemplazando el archivo original.
+
+_DISCLAIMER_: Recomiendo hacer esto aunque sea **una vez**, para poder configurar el Chat de Voz (de la sección 8), ya que el control original (la tecla `V`) se choca con otros mods.
+
+### 5. Iniciar Minecraft
 
 - Abrir el launcher de Minecraft.
 - Seleccionar la versión `forge-1.20.1-47.4.0`. (\*)
@@ -46,7 +57,7 @@ Este va a reemplazar la versión de Minecraft que vamos a usar desde el launcher
 
 (\*) Estos puntos sólo hay que hacerlos la primera vez, ya que quedan guardados.
 
-### 5. Configurar gráficos
+### 6. Configurar gráficos
 
 Al cargar el juego, recomendamos presetear ciertas configuraciones antes de entrar a cualquier mundo, ya que las mismas pueden tardar mucho estando adentro de uno.
 Esto es **principalmente** si su PC no puede correr juegos con los gráficos al tope, sino ni lean esto.
@@ -58,7 +69,7 @@ Esto es **principalmente** si su PC no puede correr juegos con los gráficos al 
 
 Puede que haya otras configuraciones a ajustar, pero estas son las que conviene hacer antes de entrar al mundo (en especial la del _mipmap_).
 
-### 6. Conectar al Servidor
+### 7. Conectar al Servidor
 
 - Entrar a "Multijugador" y agregar un nuevo servidor con los siguientes datos:
   - **Nombre:** _Montoto_ (poner un nombre a gusto)
@@ -67,18 +78,6 @@ Puede que haya otras configuraciones a ajustar, pero estas son las que conviene 
 - Darle doble click a _Montoto_ (el nuevo servidor).
 
 > 🚨 Si el servidor está apagado, no se va a poder conectar, pero ya queda guardado para cuando lo esté.
-
-### 7. Reconfigurar Teclas
-
-Al tener tantos mods hay muchas teclas que se chocan, y configurarlas una por una es un garrón, por lo que armé un archivo de configuración para que no pase y se pueda tener todo ya pre-configurado.
-
-Para hacer esto:
-- Primero hay que cerrar el juego si estaba abierto.
-- Hacer un backup (por las dudas) de su archivo `.minecraft/options.txt`, ya sea guardarlo en otro lado o renombrarlo a `options_old.txt`.
-- Copiar el archivo `options.txt` (de esta carpeta) y pegarlo en su `.minecraft/`, reemplazando el archivo original.
-- Si el juego estaba abierto hay que reiniciarlo.
-
-_DISCLAIMER_: Recomiendo hacer esto aunque sea **una vez**, para poder configurar el Chat de Voz (de la siguiente sección), ya que el control original (la tecla `V`) se choca con otros mods.
 
 ### 8. Configuración del Chat de Voz (Simple Voice Chat)
 
