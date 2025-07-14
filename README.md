@@ -23,6 +23,10 @@ A partir de este punto, para leer las instrucciones recomiendo usar esta misma p
 
 ### 2. Instalar Forge
 
+Forge es el "mod loader" (cargador de mods) que vamos a usar.
+
+Este va a reemplazar la versión de Minecraft que vamos a usar desde el launcher.
+
 - Ejecutar el archivo `forge-1.20.1-47.4.0-installer.jar` ubicado en la raiz de la carpeta extraida y elegí la opción **Install client**.
 
 ### 3. Instalar los Mods
