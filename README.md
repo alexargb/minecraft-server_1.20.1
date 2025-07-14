@@ -2,7 +2,7 @@
 
 Este repositorio contiene todo lo necesario para conectarse correctamente al servidor de Minecraft **1.20.1 con Forge**, incluyendo los mods obligatorios y contenido visual opcional para quienes tengan una PC potente.
 
-Con seguir las instrucciones de este README (y las de los README de las carpetas interiores en caso de ser utilizadas) se va a poder entrar al servidor con Minecraft configurado.
+Con seguir las instrucciones de este `README` (y las de los `README` de las carpetas interiores en caso de ser utilizadas) se va a poder entrar al servidor con Minecraft configurado.
 
 Pido disculpas de que sea todo tan manual, me encantaría poder hacer un script y que les haga todo por cuenta propia pero ya hice suficiente laburo de Hackerman como para que tengan todo esto disponibilizado 🙏
 
