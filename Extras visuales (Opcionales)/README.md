@@ -10,5 +10,5 @@ Estos agregan efectos visuales como hojitas cayendo de los arboles.
 ### Packs de recursos y animaciones
 
 Incluye animaciones y texturas mejoradas.
-- Copiá los archivos de `resourcepacks/` en `.minecraft/resourcepacks/`.
+- Copiá los archivos de `Packs de recursos y animaciones/` en `.minecraft/resourcepacks/` (si no existe la carpeta creala).
 - Al iniciar el juego, activalos desde "Opciones → Paquetes de Recursos" (aunque diga "incompatible", no afecta).
