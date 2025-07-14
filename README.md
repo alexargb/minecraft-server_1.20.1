@@ -1,6 +1,7 @@
 # Repositorio de Conexión al Servidor de Minecraft 1.20.1
 
 Este repositorio contiene todo lo necesario para conectarse correctamente al servidor de Minecraft **1.20.1 con Forge**, incluyendo los mods obligatorios y contenido visual opcional para quienes tengan una PC potente.
+Con seguir las instrucciones de este README (y las de los README de las carpetas interiores de ser utilizadas) se va a poder entrar al servidor con Minecraft configurado.
 
 ---
 
@@ -10,60 +11,88 @@ Este repositorio contiene todo lo necesario para conectarse correctamente al ser
 
 - Tener **Java 17** instalado.
   - [Descargar Java 17](https://adoptium.net/en-GB/temurin/releases/?version=17)
-- Tener **WinRAR o 7-Zip** instalado para descomprimir archivos.
+- Tener **WinRAR** instalado para descomprimir archivos.
+  - [Descargar WinRAR](https://www.win-rar.com/start.html?&L=6) (no lo paguen, no es necesario)
+- Descargarse este repositorio:
+  - Le dan click al botón verde que dice "Code".
+  - Le dan click a "Download ZIP"/"Descargar ZIP".
+  - Al archivo descargado lo "Extraen".
 
 ### 2. Instalar Forge
 
-- Ejecutá `forge-1.20.1-47.4.0-installer.jar` y elegí la opción **Install client**.
+- Ejecutá el archivo `forge-1.20.1-47.4.0-installer.jar` ubicado en la raiz de la carpeta extraida y elegí la opción **Install client**.
 
 ### 3. Instalar los Mods
 
-- Entrá a tu carpeta de `.minecraft`. ([mini explicacion](https://youtu.be/XYNdWGJI0Vg?si=e3KWQYHHYuu7C6lL\&t=43))
-- **Backup**: si ya tenés una carpeta llamada `mods`, guardala en otro lugar para no perder tus otros mods.
-- Copiá el contenido de la carpeta `Mods 1.20.1/` y pegalo en `.minecraft/mods/`.
+- Entrar a su carpeta de `.minecraft`. ([mini explicacion](https://youtu.be/XYNdWGJI0Vg?si=e3KWQYHHYuu7C6lL\&t=43))
+- **Backup**: si ya tienen una carpeta llamada `mods`, guardarla en otro lugar para no perderlos, que cuando se quiera volver a usarlos se van a tener que volver a poner ahí.
+- Copiar el contenido de la carpeta `Mods 1.20.1/` y pegalo en `.minecraft/mods/`.
 
 ### 4. Iniciar Minecraft
 
-- Abrí el launcher de Minecraft.
-- Seleccioná la versión `forge-1.20.1-47.4.0`. (\*)
-- En la pestaña "Instalaciones" podés editar el perfil y cambiar los argumentos de JVM para asignarle al menos **6GB de RAM**: (\*)
+- Abrir el launcher de Minecraft.
+- Seleccionar la versión `forge-1.20.1-47.4.0`. (\*)
+- En la pestaña "Instalaciones" hay que editar el perfil y cambiar los argumentos de JVM para asignarle _al menos_ **6GB de RAM**: (\*)
   - Ejemplo: `-Xmx6G -Xms2G`
   - [Mini explicacion](https://www.youtube.com/clip/UgkxccZbczh97olrcoOc_uja0_PHN1YS4sQX)
 - Darle a "Jugar".
 
-(\*) Estos puntos solo hay que hacerlos la primera vez, ya que quedan guardados.
+(\*) Estos puntos sólo hay que hacerlos la primera vez, ya que quedan guardados.
 
-### 5. Conectar al Servidor
+### 5. Configurar gráficos
 
-- Entrá a "Multijugador" y agregá un nuevo servidor con los siguientes datos:
-  - **Nombre:** Montoto (pongan el nombre que quieran)
+Al cargar el juego, recomendamos presetear ciertas configuraciones antes de entrar a cualquier mundo, ya que las mismas pueden tardar mucho estando adentro de uno.
+Esto es principalmente si su PC no puede correr juegos con los gráficos al tope, sino ni lean esto.
+
+1. Entran a _Opciones_ → _Gráficos_.
+2. Renderizado y Simulación: Precisan estar en 12 chunks.
+3. Suavizado de mipmap: NO (literalmente, hay que bajarlo a NO).
+4. Aceptar.
+
+Puede que haya otras configuraciones a ajustar, pero estas son las que conviene hacer antes de entrar al mundo (en especial la del _mipmap_).
+
+### 6. Conectar al Servidor
+
+- Entrar a "Multijugador" y agregar un nuevo servidor con los siguientes datos:
+  - **Nombre:** _Montoto_ (poner un nombre a gusto)
   - Dirección/IP: (revisar el discord)
+  - Aceptar.
+- Darle doble click a _Montoto_ (el nuevo servidor).
 
-> 🚨 Si el servidor está apagado, no vas a poder conectarte. Pero ya te queda guardado para otra vez.
+> 🚨 Si el servidor está apagado, no se va a poder conectar, pero ya queda guardado para otra vez.
 
 ---
 
+## Reconfigurar Teclas
+
+Al tener tantos mods hay muchas teclas que se chocan, y configurarlas una por una es un garrón, por lo que armé un archivo de configuración para que no pase y se pueda tener todo ya pre-configurado.
+
+Para hacer esto:
+- Primero hay que cerrar el juego si estaba abierto.
+- Hacer un backup (por las dudas) de su archivo `.minecraft/options.txt`, ya sea guardarlo en otro lado o renombrarlo a `options_old.txt`.
+- Copiar el archivo `options.txt` (de esta carpeta) y pegarlo en su `.minecraft/`, reemplazando el archivo original.
+- Si el juego estaba abierto hay que reiniciarlo.
+
+_DISCLAIMER_: Recomiendo hacer esto aunque sea **una vez**, para poder configurar el Chat de Voz (de la siguiente sección), ya que el control original (la tecla `V`) se choca con otros mods.
+
 ## Configuración del Chat de Voz (Simple Voice Chat)
 
-1. Al ingresar al mundo, presioná `V` para abrir el menú de configuración.
-2. Seguí los pasos:
-   - Elegí tu **micrófono** de entrada.
-   - Elegí tus **auriculares o parlantes** de salida.
-   - Configurá el modo como **"Activación por voz"**.
-3. Finalizá el asistente.
+Al entrar al mundo hay que configurar el Chat de Voz (una sola vez):
+1. Presionar `SHIFT + V` para abrir el menú de configuración del Chat de Voz.
+2. Seguir los pasos:
+   - Elegir **micrófono** de entrada.
+   - Elegir **auriculares o parlantes** de salida.
+   - Configurar el modo como **"Activación por voz"**.
+   - Ajustar la sensibilidad a gusto.
+3. Finalizar.
 
-### Reconfigurar Teclas
-
-Hay un conflicto entre las teclas del chat de voz y otros mods:
-
-- Ir a: Configuración → Controles → Redefinir Controles.
-- En el grupo "Tool Belt", cambiá la tecla `V` por `K` para liberar `V` para el chat de voz.
+_DISCLAIMER_: Todas estas configuraciones se pueden actualizar posteriormente al presionar las mismas teclas (`SHIFT + V`).
 
 ---
 
 ## Extras Visuales (Opcionales)
 
-Para usuarios con PCs potentes, podés instalar mejoras visuales. Todo lo necesario está en la carpeta `Extras Visuales (Opcionales)`.
+Para usuarios con PCs potentes, se pueden instalar mejoras visuales. Todo lo necesario está en la carpeta `Extras visuales (Opcionales)`.
 
 ---
 
