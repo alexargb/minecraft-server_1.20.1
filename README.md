@@ -54,7 +54,7 @@ _DISCLAIMER_: Recomiendo hacer esto aunque sea **una vez**, para poder configura
 - Seleccionar la versión `forge-1.20.1-47.4.0`. (\*)
 - En la pestaña "Instalaciones" hay que editar el perfil y cambiar los argumentos de JVM para asignarle _al menos_ **4GB de RAM** (gente con 24+GB recomiendo dedicarle 10GB, al resto recomiendo **6GB**): (\*)
   - Ejemplo: `-Xmx6G`
-  - [Mini explicación](https://www.youtube.com/clip/UgkxccZbczh97olrcoOc_uja0_PHN1YS4sQX)
+  - [Mini explicación](https://www.youtube.com/clip/UgkxccZbczh97olrcoOc_uja0_PHN1YS4sQX) (en vez de para "Latest release" hay que hacerlo para la versión de Forge que se instaló)
 - Darle a "Jugar".
 
 (\*) Estos puntos sólo hay que hacerlos la primera vez, ya que quedan guardados.
