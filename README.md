@@ -73,7 +73,9 @@ Puede que haya otras configuraciones a ajustar, pero estas son las que conviene 
 
 ### 7. Conectar al Servidor
 
-- Entrar a "Multijugador" y agregar un nuevo servidor con los siguientes datos:
+- Entrar a "Multijugador".
+  - Es probable que al entrar acá Minecraft les pida acceso a la red con una confirmación de Windows, lo tienen que aceptar porque sino no se van a poder conectar a ningún Servidor.
+- Agregar un nuevo servidor con los siguientes datos:
   - **Nombre:** _Montoto_ (poner un nombre a gusto)
   - Dirección/IP: (revisar el discord, aca voy a dejar un link al mensaje con la IP, que no la puedo hacer publica)
   - Aceptar.
